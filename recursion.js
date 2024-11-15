@@ -19,7 +19,7 @@ function isPalindrome(str) {
 // *************************Power Function*************************
 
 
-function power(n, exp) {
+function power(n, exp) {da
     return exp === 0 ? 1 : n * power(n, exp - 1);
 }
 
